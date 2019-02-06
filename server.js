@@ -1,10 +1,10 @@
-/**
+/*
  * Created by Makeev Evgeny on 17.08.18.
  */
-/*
-import Express from 'express';
-import Handlebars from 'express-handlebars';
-*/
+
+//import Express from 'express';
+//import Handlebars from 'express-handlebars';
+
 const Express = require('express');
 const Handlebars = require('express-handlebars');
 
@@ -47,8 +47,5 @@ app.use((err, req, res) => {
   res.render('layouts/500.handlebar');
 });
 
-
-// export default app;
+//export default app;
 module.exports = app;
-
-

@@ -1,0 +1,36 @@
+{
+  "name": "meadow",
+  "version": "1.0.0",
+  "description": "Ethan Brown book Web Dev with Node & Express",
+  "main": "meadowlark.js",
+  "scripts": {
+    "test": "test",
+    "start": "node meadowlark.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makeevstranik/meadow.git"
+  },
+  "author": "makeev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makeevstranik/meadow/issues"
+  },
+  "homepage": "https://github.com/makeevstranik/meadow#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0"
+  },
+  "compilerOptions": {
+    "target": "es6"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
